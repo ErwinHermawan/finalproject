@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".adminpage">
+
+    <Button
+        android:id="@+id/data"
+        android:layout_marginTop="280dp"
+        android:padding="10dp"
+        android:textColor="@color/black"
+        android:backgroundTint="@color/purple_200"
+        android:text="Parking Data"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/qrgenerator"
+        android:layout_marginTop="16dp"
+        android:padding="10dp"
+        android:textColor="@color/black"
+        android:backgroundTint="@color/purple_200"
+        android:text="QR Generator"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+</LinearLayout>

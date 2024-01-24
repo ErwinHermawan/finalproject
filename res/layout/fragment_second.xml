@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:id="@+id/camera_fragment"
+    android:layout_height="match_parent"
+    tools:context=".SecondFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TextView
+        android:layout_marginTop="200dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:layout_marginLeft="30dp"
+        android:text="Token: "/>
+
+    <TextView
+        android:id="@+id/email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="180dp"
+        android:text=""
+        android:lines="3"
+        android:textSize="16sp" />
+
+
+
+
+
+
+
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Your Ticket"
+    android:textStyle="bold"
+    android:textSize="20dp"
+    android:layout_marginTop="20dp"
+    android:layout_marginLeft="150dp"
+    android:textColor="@color/black"
+    />
+    <ImageView
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="150dp"
+        android:id="@+id/yourticket"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/tickets" />
+
+    <Button
+        android:id="@+id/logout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="500dp"
+        android:backgroundTint="@color/purple_200"
+        android:text="Logout"
+        android:textColor="@color/black" />
+
+    <Button
+        android:textColor="@color/black"
+        android:backgroundTint="@color/purple_200"
+        android:layout_marginTop="420dp"
+        android:layout_marginLeft="140dp"
+        android:id="@+id/copyButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Copy Text"
+        />
+
+
+</FrameLayout>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingRight="20dp"
+    android:orientation="vertical"
+    android:paddingLeft="20dp"
+    android:paddingTop="20dp"
+    android:background="@drawable/background"
+    tools:context=".ParkCarActivity">
+
+    <EditText
+        android:id="@+id/driverName"
+        android:layout_marginTop="10dp"
+        android:hint="Your ID"
+        android:padding="15dp"
+        android:background="@android:color/transparent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:id="@+id/numberPlate"
+        android:layout_marginTop="10dp"
+        android:hint="Number Plate"
+        android:padding="15dp"
+        android:background="@android:color/transparent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:id="@+id/driverNumber"
+        android:layout_marginTop="10dp"
+        android:hint="Driver Number"
+        android:padding="15dp"
+        android:background="@android:color/transparent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:id="@+id/vehicleType"
+        android:layout_marginTop="10dp"
+        android:hint="Vehicle Type"
+        android:padding="15dp"
+        android:background="@android:color/transparent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:id="@+id/amount"
+        android:layout_marginTop="10dp"
+        android:hint="Choose Below"
+        android:padding="15dp"
+        android:inputType="none"
+        android:focusable="false"
+        android:clickable="false"
+        android:background="@android:color/transparent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <RadioGroup
+        android:id="@+id/amount_radio_group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/radio1"
+            android:text="1 Hour = Rp.5000"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <RadioButton
+            android:id="@+id/radio2"
+            android:text="3 Hours = Rp.10.000"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <RadioButton
+            android:id="@+id/radio3"
+            android:text="5 Hours = Rp.15.000"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </RadioGroup>
+
+    <Button
+        android:textColor="@color/black"
+        android:backgroundTint="@color/purple_200"
+        android:text="Park"
+        android:id="@+id/parkCarBtn"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+</LinearLayout>
